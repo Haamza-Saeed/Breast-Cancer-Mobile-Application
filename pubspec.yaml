@@ -1,0 +1,70 @@
+name: project
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  quickalert: ^1.1.0
+  firebase_core: ^3.6.0
+  cloud_firestore: ^5.5.0
+  firebase_auth: ^5.3.3
+  google_sign_in: ^6.2.1
+  firebase_storage: ^12.4.10
+  video_player: ^2.8.2
+  chewie: ^1.7.5
+  supabase_flutter: ^2.5.0
+  uuid: ^4.5.1
+  pdf: ^3.11.0
+  printing: ^5.13.0
+  http: ^1.2.2
+  cloud_functions: ^5.0.0
+  image_picker: ^1.1.2
+  awesome_dialog: ^3.2.1
+  url_launcher: ^6.3.0
+  tflite_flutter: ^0.12.1
+  image: ^4.1.7
+  file_picker: ^8.0.0
+  flutter_localizations:
+    sdk: flutter
+  provider: ^6.0.0
+  cupertino_icons: ^1.0.8
+  google_fonts: ^5.0.0
+  smooth_page_indicator: ^1.2.1
+  intl: ^0.20.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+  flutter_lints: ^5.0.0
+  flutter_native_splash: ^2.4.1
+
+# 🔥 THIS PART MUST BE OUTSIDE dev_dependencies
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/icon.png"
+
+flutter_native_splash:
+  color: "#FFFFFF"
+  android: true
+  ios: true
+
+flutter:
+  generate: true
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/models/tissue_detector.tflite
+    - assets/models/breakhis_resnet.tflite
+    - assets/models/labels.txt
+    - assets/models/gate_histology.tflite
+    - assets/models/gate_labels.txt

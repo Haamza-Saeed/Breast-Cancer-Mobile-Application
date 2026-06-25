@@ -1,0 +1,40 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "breastscan-baf86",
+          "appId": "1:372217172098:android:c29c31bec5b943abeda49b",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "breastscan-baf86",
+          "configurations": {
+            "android": "1:372217172098:android:c29c31bec5b943abeda49b",
+            "ios": "1:372217172098:ios:eebd9ea5541d0fa8eda49b",
+            "macos": "1:372217172098:ios:eebd9ea5541d0fa8eda49b",
+            "web": "1:372217172098:web:55d947f3e9315432eda49b",
+            "windows": "1:372217172098:web:09dda3c2ad93c015eda49b"
+          }
+        }
+      }
+    }
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "disallowLegacyRuntimeConfig": true,
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ],
+      "predeploy": []
+    }
+  ]
+}

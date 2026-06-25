@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "372217172098",
+    "project_id": "breastscan-baf86",
+    "storage_bucket": "breastscan-baf86.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:372217172098:android:c29c31bec5b943abeda49b",
+        "android_client_info": {
+          "package_name": "com.example.project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "372217172098-toeiim5cunaq7316m169h26cnb16tl0f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.project",
+            "certificate_hash": "0fbaa176a18203249db9e2ca759390eccf2da2b6"
+          }
+        },
+        {
+          "client_id": "372217172098-u5vdm1pba3hnc7v6ed9hufgpdbqe11hr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3zA4GShf7blz8FHRJlUnJOFuepAkU530"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "372217172098-u5vdm1pba3hnc7v6ed9hufgpdbqe11hr.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "372217172098-jhkatb9uv94bivevq94qthjl3d6dg3de.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.project"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
